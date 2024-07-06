@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>Account-settings - LIFESTYLE-STORE</title>
+</head>
+<style>
+    
+/* Account Settings */
+body{
+    background-image: url(image/LIFESTYLE_STORE3_IMAGES.jpg);
+}
+.account-settings {
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+.account-title {
+    font-size: 2em;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+.account-form .form-group {
+    margin-bottom: 15px;
+}
+
+.account-form label {
+    display: block;
+    font-weight: 600;
+    margin-bottom: 5px;
+}
+
+.account-form input[type="text"],
+.account-form input[type="email"],
+.account-form input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+
+.btn-save {
+    background-color: #c82175;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+.btn-save:hover {
+    background-color: #45a049;
+}
+
+</style>
+<body>
+    <div class="account-settings">
+        <h1 class="section-title">&nbsp&nbsp &nbsp &nbsp &nbsp &nbsp   <a href="products.html">Home</a></h1>
+        <h2 class="account-title">Account Settings</h2>
+        <p>Manage your account settings and set email preferences.</p>
+        <form class="account-form">
+            <div class="form-group">
+                <label for="username">Username:</label>
+                <input type="text" id="username" name="username" value="current_username">
+            </div>
+            <div class="form-group">
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" value="current_email@example.com">
+            </div>
+            <div class="form-group">
+                <label for="password">New Password:</label>
+                <input type="password" id="password" name="password">
+            </div>
+            <div class="form-group">
+                <label for="confirm-password">Confirm Password:</label>
+                <input type="password" id="confirm-password" name="confirm-password">
+            </div>
+            <div class="form-group">
+                <button type="submit" class="btn-save">Save Changes</button>
+            </div>
+        </form>
+    </div>
+    </body>
+</html>
